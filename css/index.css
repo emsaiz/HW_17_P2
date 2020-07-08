@@ -1,0 +1,104 @@
+body {
+    font-family: "PT sans";
+}
+
+h1 {
+    font-family: "PT serif"; 
+    font-size: 40px;
+}
+
+h2{
+    font-family: "PT sans";
+    font-size: 22px;
+}
+
+h3{
+    font-weight: 100;
+    font-size: 18;
+}
+
+.topnav a {
+    float: right;
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+.h_color {
+    width: 100%;
+    height: 125px;
+    background-color: #EEEDE8;
+    display: block;
+    margin: 0px;
+}
+
+.aboutmeBox{
+    display: flex;
+    justify-items: center;
+    padding: 90px;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.text{
+    padding: 80px;
+    line-height: 35px;
+    font-weight: 50;
+}
+
+.abMe_Profile{
+    width: 250px;
+    height: 250px;
+}
+
+.downloadResume {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    background-color: #87ABBC;
+    border: none;
+    border-radius: 8px;
+}
+
+.mountainImage{
+    overflow: hidden;
+}
+
+.contactInfo {
+    width: 100%;
+    height: 175px;
+    background-color: #EEEDE8;
+    display: block;
+    text-align: center;
+}
+
+.contactText {
+    display: block;
+    align-content: center;
+    padding: 19.5px;
+}
+
+.footer{
+    display: flex;
+}
+
+.bottomnav {
+    display: flex;
+    align-items: center;
+    bottom:0;
+    left: 0;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+
+.email {
+   padding: 10px 30px;
+}
+
+.linktedin {
+   padding: 10px 10px;
+}
